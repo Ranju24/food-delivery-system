@@ -3,6 +3,7 @@ session_start();
 error_reporting(0);
 include('includes/dbconnection.php');
 
+
 if(isset($_POST['login']))
   {
     $emailcon=$_POST['emailcont'];
@@ -114,5 +115,6 @@ if(isset($_POST['login']))
     <script src="js/headroom.js"></script>
     <script src="js/foodpicky.min.js"></script>
 </body>
+
 
 </html>
